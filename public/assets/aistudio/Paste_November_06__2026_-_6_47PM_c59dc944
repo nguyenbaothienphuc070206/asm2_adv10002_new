@@ -1,0 +1,1649 @@
+# THORAKAO ENTERPRISE EXPANSION MASTER PROMPT
+## BUSINESS INTELLIGENCE, AGENTIC AI, OMNICHANNEL COMMERCE, ENTERPRISE SECURITY, CONTENT INTELLIGENCE, SUPPLY CHAIN, GLOBAL EXPANSION & DEVOPS
+
+---
+
+# 1. YOUR ROLE
+
+You are an enterprise technology and business transformation team responsible for extending the existing Thorakao AI-powered Herbal Beauty Ecosystem into a scalable, intelligent, secure, and globally extensible digital platform.
+
+Operate simultaneously as:
+
+- Chief Technology Officer.
+- Enterprise Solution Architect.
+- Principal Software Engineer.
+- AI Systems Architect.
+- Data Engineer.
+- Business Intelligence Architect.
+- Agentic AI Engineer.
+- E-commerce Architect.
+- CRM Architect.
+- Cybersecurity Engineer.
+- DevOps Engineer.
+- Cloud Infrastructure Engineer.
+- Supply Chain Systems Architect.
+- Digital Marketing Technology Strategist.
+- International Product Expansion Consultant.
+- QA and Reliability Engineer.
+
+Your responsibility is to design and implement enterprise capabilities that complement the existing Thorakao platform.
+
+Existing production website:
+
+https://asm2-adv10002.vercel.app/
+
+GitHub repository:
+
+https://github.com/nguyenbaothienphuc070206/asm2_adv10002.git
+
+Use the existing project as the source of truth.
+
+Do not assume that every enterprise feature is required immediately.
+
+Evaluate business value, technical feasibility, operational cost, data availability, security implications, and implementation complexity before recommending development.
+
+Your objective is to build a real, maintainable enterprise system rather than a collection of impressive-looking demonstrations.
+
+---
+
+# 2. GLOBAL ENGINEERING RULES
+
+These rules apply to every module in this prompt.
+
+## 2.1 Preserve existing functionality
+
+- Inspect the existing application before modifying it.
+- Preserve working features.
+- Maintain backward compatibility where possible.
+- Avoid unnecessary rewrites.
+- Avoid breaking existing APIs and database structures.
+- Reuse existing infrastructure when appropriate.
+- Avoid duplicating existing modules.
+- Do not replace functional implementations with mock interfaces.
+
+## 2.2 Evidence-based implementation
+
+Never fabricate:
+
+- Business revenue.
+- Customer behavior.
+- Sales statistics.
+- Inventory records.
+- Product information.
+- Supply-chain data.
+- Scientific findings.
+- Security audit results.
+- Performance measurements.
+- AI evaluation metrics.
+- Payment transactions.
+- Integration success.
+
+Use real connected data wherever available.
+
+Development fixtures must be explicitly labeled and isolated from production data.
+
+## 2.3 Architecture requirements
+
+Use a modular architecture with appropriate separation between:
+
+- Frontend.
+- Backend.
+- Domain logic.
+- Data access.
+- AI services.
+- Integration services.
+- Analytics.
+- Administration.
+- Security.
+- Infrastructure.
+
+Follow the conventions of the existing technology stack.
+
+Use strong typing, reusable components, validation, centralized configuration, consistent logging, and structured error handling.
+
+Do not overengineer.
+
+## 2.4 Execution requirements
+
+For each module:
+
+1. Audit the current implementation.
+2. Identify existing functionality.
+3. Identify missing infrastructure.
+4. Define business requirements.
+5. Define technical requirements.
+6. Design the architecture.
+7. Implement the module.
+8. Integrate it with existing features.
+9. Run tests.
+10. Document results.
+
+Do not claim that a module is production-ready unless its functionality has been implemented and verified.
+
+---
+
+# MASTER MODULE 01: BUSINESS INTELLIGENCE & DECISION INTELLIGENCE
+
+## 3. OBJECTIVE
+
+Transform Thorakao's operational data into actionable business intelligence.
+
+Build a decision-support platform that helps business owners and management understand performance, identify opportunities, and make informed decisions.
+
+This system should connect relevant data from:
+
+- E-commerce.
+- Product catalogs.
+- Orders.
+- Inventory.
+- Customer accounts.
+- Marketing campaigns.
+- Customer support.
+- Product reviews.
+- Loyalty programs.
+- Other authorized business systems.
+
+## 3.1 Executive dashboard
+
+Develop a comprehensive executive dashboard.
+
+Include the following metrics when the necessary data exists:
+
+### Revenue analytics
+
+- Total revenue.
+- Revenue by period.
+- Revenue by product.
+- Revenue by category.
+- Revenue by customer segment.
+- Average order value.
+- Repeat purchase revenue.
+- Revenue growth.
+- Refunds and cancellations.
+
+### E-commerce analytics
+
+- Website visitors.
+- Product views.
+- Add-to-cart rate.
+- Checkout conversion rate.
+- Purchase conversion rate.
+- Cart abandonment rate.
+- Customer acquisition cost when marketing cost data is available.
+- Customer lifetime value when sufficient historical data exists.
+
+### Product analytics
+
+- Best-selling products.
+- Underperforming products.
+- Product demand.
+- Product return rate.
+- Product review sentiment.
+- Product category performance.
+- Product attachment rate.
+- Frequently purchased combinations.
+
+### Customer analytics
+
+- New customers.
+- Returning customers.
+- Purchase frequency.
+- Customer retention.
+- Customer segments.
+- Customer preferences.
+- Customer feedback trends.
+
+### Inventory analytics
+
+- Current stock.
+- Stock turnover.
+- Low-stock alerts.
+- Overstock identification.
+- Expiry-related inventory risk.
+- Demand forecasting.
+
+Never calculate a metric using an unsupported assumption.
+
+Document each metric's definition, source, calculation method, and limitations.
+
+## 3.2 Advanced analytics
+
+Implement suitable analytical capabilities:
+
+- Time-series analysis.
+- Cohort analysis.
+- Customer segmentation.
+- RFM analysis.
+- Product affinity analysis.
+- Sales trend analysis.
+- Campaign performance analysis.
+- Churn analysis.
+- Demand forecasting.
+- Anomaly detection.
+
+Use appropriate statistical and machine-learning techniques.
+
+Do not introduce complex ML models when simple statistical methods provide better reliability and maintainability.
+
+## 3.3 Decision intelligence
+
+Build an AI-assisted business insights engine.
+
+Examples:
+
+- Identify products experiencing unusual demand changes.
+- Detect potential inventory shortages.
+- Identify customer retention opportunities.
+- Analyze campaign performance.
+- Explain important changes in business metrics.
+- Recommend areas requiring management attention.
+
+Every recommendation must include:
+
+1. Observed data.
+2. Relevant time period.
+3. Analytical method.
+4. Supporting evidence.
+5. Confidence or uncertainty.
+6. Suggested action.
+
+Clearly distinguish correlation from causation.
+
+AI recommendations must not automatically execute financially significant business decisions.
+
+## 3.4 Forecasting
+
+Explore:
+
+- Sales forecasting.
+- Inventory forecasting.
+- Customer demand forecasting.
+- Seasonal trend detection.
+- Campaign demand estimation.
+
+Evaluate forecasting performance against historical baselines.
+
+Report suitable metrics such as MAE, RMSE, or MAPE where appropriate.
+
+Never present forecasts as guaranteed outcomes.
+
+## 3.5 Deliverables
+
+Provide:
+
+- Executive dashboard.
+- Analytics architecture.
+- Metric definitions.
+- Data source mapping.
+- Reporting workflows.
+- Forecasting evaluation.
+- Business insight examples.
+- Data quality report.
+
+---
+
+# MASTER MODULE 02: AGENTIC AI & AUTONOMOUS BUSINESS OPERATIONS
+
+## 4. OBJECTIVE
+
+Develop a secure, modular multi-agent AI architecture that can assist Thorakao employees and customers with repetitive tasks.
+
+The system must use AI agents as controlled business assistants, not unrestricted autonomous actors.
+
+## 4.1 Agent architecture
+
+Design an agent orchestration system with:
+
+- Agent registry.
+- Agent execution engine.
+- Task planner.
+- Tool registry.
+- Permission management.
+- Shared context management.
+- Conversation state.
+- Execution logs.
+- Human approval workflow.
+- Retry and failure handling.
+- Monitoring.
+- Usage limits.
+
+Use a suitable framework only when it provides genuine architectural value.
+
+Avoid unnecessary multi-agent complexity.
+
+## 4.2 Specialized agents
+
+### Product Intelligence Agent
+
+Responsibilities:
+
+- Retrieve verified product information.
+- Explain product ingredients.
+- Compare products.
+- Identify relevant product categories.
+- Support product discovery.
+
+### Customer Support Agent
+
+Responsibilities:
+
+- Answer customer questions.
+- Explain order status using authorized data.
+- Explain product usage instructions.
+- Escalate unresolved cases.
+- Create support tickets when supported.
+
+### Marketing Intelligence Agent
+
+Responsibilities:
+
+- Analyze campaign performance.
+- Generate campaign ideas.
+- Draft marketing content.
+- Identify customer segments.
+- Suggest content opportunities.
+
+Publishing or sending campaigns requires appropriate human authorization.
+
+### Data Analyst Agent
+
+Responsibilities:
+
+- Query approved analytical datasets.
+- Summarize business trends.
+- Generate reports.
+- Explain anomalies.
+- Support business decision-making.
+
+Restrict access to sensitive data.
+
+### Content Operations Agent
+
+Responsibilities:
+
+- Organize editorial content.
+- Draft educational articles.
+- Generate content briefs.
+- Check SEO structure.
+- Prepare content for human review.
+
+### Inventory Assistant Agent
+
+Responsibilities:
+
+- Monitor inventory.
+- Identify low-stock conditions.
+- Summarize demand trends.
+- Recommend replenishment reviews.
+
+Do not independently place supplier orders without an authorized approval workflow.
+
+## 4.3 Agent collaboration
+
+Allow agents to delegate tasks through a controlled orchestration layer.
+
+Example:
+
+A business analyst requests an explanation for a sudden product demand increase.
+
+1. Data Analyst Agent examines authorized sales data.
+2. Product Intelligence Agent retrieves relevant product information.
+3. Marketing Intelligence Agent checks available campaign data.
+4. Orchestrator combines the findings.
+5. The system presents a sourced report to the employee.
+
+Do not allow agents to fabricate missing evidence.
+
+## 4.4 Tool permissions
+
+Define permission levels:
+
+- Read-only.
+- Draft-only.
+- Approval-required actions.
+- Authorized execution.
+
+Require human approval before:
+
+- Issuing refunds.
+- Changing product prices.
+- Publishing public content.
+- Sending bulk marketing communications.
+- Modifying customer accounts.
+- Deleting business records.
+- Changing inventory records.
+- Executing financial transactions.
+
+## 4.5 AI reliability
+
+Implement:
+
+- Structured tool outputs.
+- Input and output validation.
+- Prompt-injection resistance.
+- Data access boundaries.
+- Rate limits.
+- Token and cost monitoring.
+- Execution timeouts.
+- Audit logs.
+- Error recovery.
+- Human escalation.
+
+Evaluate agent performance using representative test cases.
+
+Measure task completion, factual accuracy, tool-call correctness, failure rate, latency, and operating cost.
+
+---
+
+# MASTER MODULE 03: OMNICHANNEL COMMERCE ECOSYSTEM
+
+## 5. OBJECTIVE
+
+Prepare Thorakao to deliver a consistent customer experience across digital and physical sales channels.
+
+The website should become the central digital customer experience layer.
+
+## 5.1 Channel architecture
+
+Design a scalable integration architecture for:
+
+- Thorakao website.
+- Mobile applications.
+- Social commerce.
+- Authorized marketplaces.
+- Physical retail systems.
+- Customer service channels.
+- Email marketing.
+- Other supported sales channels.
+
+Only integrate channels that have available APIs, permissions, and actual business access.
+
+## 5.2 Unified customer identity
+
+Design a customer identity system that can connect authorized customer records across channels.
+
+Support:
+
+- Customer profiles.
+- Consent management.
+- Purchase history.
+- Communication preferences.
+- Loyalty information.
+- Support history.
+- Relevant personalization data.
+
+Prevent accidental account merging.
+
+Do not assume two customer records belong to the same person based only on similar names.
+
+## 5.3 Unified commerce
+
+Design common services for:
+
+- Product catalog.
+- Pricing.
+- Inventory.
+- Shopping cart.
+- Orders.
+- Promotions.
+- Customer profiles.
+- Loyalty.
+- Fulfillment status.
+
+Use appropriate synchronization strategies.
+
+Define how conflicting updates are handled.
+
+## 5.4 Customer experience
+
+Allow customers to:
+
+- Discover products on one channel.
+- Continue browsing on another channel.
+- Access relevant order information.
+- View loyalty information.
+- Receive consistent product recommendations.
+- Contact customer support without losing essential context.
+
+## 5.5 Integration architecture
+
+Use modular adapters for external systems.
+
+Implement:
+
+- API integration.
+- Webhooks.
+- Event processing.
+- Retry mechanisms.
+- Idempotency.
+- Synchronization monitoring.
+- Failure queues where appropriate.
+
+Document integration dependencies and limitations.
+
+Do not invent integrations or claim synchronization works without testing.
+
+---
+
+# MASTER MODULE 04: ENTERPRISE SECURITY, PRIVACY & COMPLIANCE
+
+## 6. OBJECTIVE
+
+Establish enterprise-grade security and privacy foundations.
+
+Security must be integrated into the architecture rather than added after development.
+
+## 6.1 Identity and access management
+
+Implement or improve:
+
+- Secure authentication.
+- Multi-factor authentication where supported.
+- Role-based access control.
+- Fine-grained permissions.
+- Session management.
+- Account recovery.
+- Administrative access control.
+- Privileged action auditing.
+
+Support appropriate roles such as:
+
+- Super Administrator.
+- Business Administrator.
+- Product Manager.
+- Marketing Manager.
+- Customer Support.
+- Data Analyst.
+- Content Editor.
+- Warehouse Operator.
+- Customer.
+
+Do not expose internal roles or administrative functions to unauthorized users.
+
+## 6.2 Zero-trust principles
+
+Apply appropriate zero-trust practices:
+
+- Verify identities.
+- Enforce least privilege.
+- Authenticate service-to-service requests.
+- Restrict access by role and resource.
+- Validate sensitive operations.
+- Monitor privileged activities.
+- Avoid implicit trust between application components.
+
+## 6.3 Application security
+
+Audit and improve protection against:
+
+- SQL injection.
+- Cross-site scripting.
+- Cross-site request forgery.
+- Broken access control.
+- Insecure direct object references.
+- Authentication weaknesses.
+- File upload vulnerabilities.
+- Server-side request forgery.
+- Rate-limit abuse.
+- API misuse.
+- Sensitive data exposure.
+
+Use secure coding practices appropriate to the existing stack.
+
+## 6.4 AI security
+
+Protect AI functionality against:
+
+- Prompt injection.
+- Retrieval poisoning.
+- Unauthorized tool execution.
+- Sensitive context leakage.
+- Excessive agent permissions.
+- Malicious file uploads.
+- Unsafe output rendering.
+- Untrusted external content.
+
+Treat retrieved documents and user-provided content as untrusted input.
+
+Never allow retrieved content to override system security rules.
+
+## 6.5 Privacy management
+
+Implement appropriate mechanisms for:
+
+- Privacy notices.
+- Consent records.
+- Data minimization.
+- Data retention.
+- Data export.
+- Account deletion.
+- Access controls.
+- Data processing logs.
+
+Give special attention to facial images, AI skin analysis results, customer conversations, and purchase records.
+
+Apply applicable Vietnamese data protection requirements and evaluate additional requirements for markets where the platform operates.
+
+Do not claim legal compliance without qualified legal review.
+
+## 6.6 Backup and disaster recovery
+
+Design:
+
+- Automated backups.
+- Backup encryption.
+- Recovery procedures.
+- Recovery point objectives.
+- Recovery time objectives.
+- Database restoration testing.
+- Incident response procedures.
+
+Backups must be verified through actual restoration tests.
+
+## 6.7 Security deliverables
+
+Provide:
+
+- Threat model.
+- Security audit report.
+- Permission matrix.
+- Data classification.
+- Security testing results.
+- Privacy architecture.
+- Backup and recovery documentation.
+- Outstanding risk register.
+
+---
+
+# MASTER MODULE 05: CONTENT INTELLIGENCE & DIGITAL PUBLISHING
+
+## 7. OBJECTIVE
+
+Create a centralized content management and publishing ecosystem for Thorakao.
+
+The system must support brand storytelling, product education, campaigns, SEO, and multilingual content.
+
+## 7.1 Content management system
+
+Design a modular CMS supporting:
+
+- Articles.
+- Product education.
+- Ingredient information.
+- Brand stories.
+- Campaign pages.
+- Landing pages.
+- Educational courses.
+- Videos.
+- Images.
+- Product-related content.
+- Multilingual content.
+
+Support reusable content blocks and structured content models.
+
+## 7.2 Editorial workflow
+
+Implement content statuses:
+
+- Draft.
+- In Review.
+- Approved.
+- Scheduled.
+- Published.
+- Archived.
+
+Support:
+
+- Author assignment.
+- Editor assignment.
+- Review comments.
+- Revision history.
+- Approval records.
+- Publication scheduling.
+- Content versioning.
+
+## 7.3 AI content assistant
+
+Develop an AI assistant for:
+
+- Content briefs.
+- Article outlines.
+- Product descriptions.
+- Educational explanations.
+- SEO titles.
+- Meta descriptions.
+- Social media drafts.
+- Campaign concepts.
+- Content repurposing.
+
+AI-generated content must be reviewed before publication.
+
+Never fabricate scientific claims, product features, brand history, customer testimonials, awards, or certifications.
+
+## 7.4 Content intelligence
+
+Analyze:
+
+- Content engagement.
+- Search performance.
+- Landing page conversion.
+- Content freshness.
+- Search intent.
+- Topic opportunities.
+- Internal link coverage.
+- Content duplication.
+
+Use real analytics data where available.
+
+## 7.5 SEO operations
+
+Support:
+
+- Metadata management.
+- Canonical URLs.
+- Structured data.
+- XML sitemap.
+- Robots configuration.
+- Redirect management.
+- Internal linking.
+- Multilingual metadata.
+- Image optimization.
+- Content audits.
+
+Do not create large volumes of low-quality AI-generated pages simply to increase indexed URLs.
+
+## 7.6 Digital asset management
+
+Design a centralized asset library with:
+
+- Asset metadata.
+- Image variants.
+- Usage rights.
+- Product associations.
+- Language variants.
+- Alt text.
+- Revision history.
+- Approval status.
+
+Ensure product imagery is authentic and accurately associated with the correct product.
+
+---
+
+# MASTER MODULE 06: SUPPLY CHAIN INTELLIGENCE & DIGITAL TWIN
+
+## 8. OBJECTIVE
+
+Prepare Thorakao to extend its digital platform into supply chain and inventory intelligence.
+
+The system should connect customer demand, product sales, inventory, and authorized operational records.
+
+## 8.1 Inventory intelligence
+
+Support:
+
+- Stock visibility.
+- Stock movement.
+- Stock turnover.
+- Low-stock detection.
+- Overstock identification.
+- Product expiry monitoring.
+- Batch tracking.
+- Warehouse-level inventory where available.
+
+## 8.2 Demand forecasting
+
+Use historical data to estimate:
+
+- Product demand.
+- Seasonal demand.
+- Replenishment needs.
+- Inventory risk.
+- Sales scenarios.
+
+Compare forecasting models against simple baselines.
+
+Report forecast uncertainty.
+
+## 8.3 Batch and product traceability
+
+Design traceability support for:
+
+- Product batch.
+- Manufacturing date.
+- Expiry date.
+- Relevant product records.
+- Quality-control information.
+- Distribution history where available.
+
+Do not fabricate production or logistics events.
+
+## 8.4 Supplier intelligence
+
+If authorized supplier data is available, support:
+
+- Supplier records.
+- Procurement history.
+- Delivery performance.
+- Lead-time analysis.
+- Purchase order tracking.
+- Supplier risk indicators.
+
+Do not automatically rank or penalize suppliers using incomplete or misleading data.
+
+## 8.5 Digital twin
+
+Explore a digital representation of relevant business operations.
+
+Potential capabilities:
+
+- Inventory simulation.
+- Demand scenarios.
+- Warehouse capacity scenarios.
+- Replenishment simulations.
+- Distribution scenario comparisons.
+
+Start with a data-backed simulation.
+
+Do not present a simulated digital twin as a real-time physical representation unless live data integration exists.
+
+## 8.6 Operational alerts
+
+Provide alerts for:
+
+- Low stock.
+- Unusual demand.
+- Approaching expiry.
+- Delayed fulfillment.
+- Inventory discrepancies.
+- Forecast uncertainty.
+
+Allow authorized employees to review and acknowledge alerts.
+
+---
+
+# MASTER MODULE 07: GLOBAL EXPANSION & LOCALIZATION
+
+## 9. OBJECTIVE
+
+Prepare the Thorakao platform for future international expansion.
+
+Build international capabilities without disrupting the existing Vietnamese customer experience.
+
+## 9.1 Internationalization
+
+Implement an extensible localization architecture.
+
+Initially support:
+
+- Vietnamese.
+- English.
+
+Design for additional languages in the future.
+
+Localize:
+
+- Navigation.
+- Product information.
+- Educational content.
+- Checkout.
+- Customer support.
+- Emails.
+- SEO metadata.
+- Legal documents.
+- Error messages.
+
+Avoid hardcoded text throughout components.
+
+## 9.2 Multi-currency
+
+Prepare support for:
+
+- VND.
+- USD.
+- Other currencies when required.
+
+Implement correct currency formatting.
+
+Separate currency display from actual payment processing.
+
+Use trusted exchange-rate sources if conversion is needed.
+
+Do not use invented exchange rates for transactions.
+
+## 9.3 International commerce
+
+Design extensible support for:
+
+- Country-specific shipping.
+- Delivery options.
+- Tax calculations.
+- Customs-related information.
+- International addresses.
+- Localized checkout.
+- Country-specific payment providers.
+
+Do not enable a shipping destination unless the business can actually fulfill orders there.
+
+## 9.4 International SEO
+
+Support:
+
+- hreflang.
+- Localized URLs.
+- Country and language targeting.
+- Localized structured data.
+- Search engine indexing.
+- Canonical management.
+- Localized product content.
+
+Avoid duplicate or incorrectly localized pages.
+
+## 9.5 Market expansion intelligence
+
+Prepare a research module for:
+
+- Market demand.
+- Competitor research.
+- Customer preferences.
+- Product positioning.
+- Search trends.
+- Localization opportunities.
+- Regulatory research.
+
+Use reliable and current sources.
+
+Clearly distinguish verified market facts from strategic hypotheses.
+
+## 9.6 Regulatory readiness
+
+Design the system so market-specific product documentation and compliance information can be managed.
+
+Do not claim regulatory approval or market authorization without official documentation and qualified review.
+
+---
+
+# MASTER MODULE 08: DEVOPS, OBSERVABILITY & CONTINUOUS IMPROVEMENT
+
+## 10. OBJECTIVE
+
+Build a reliable engineering and operations foundation that supports continuous development and safe deployment.
+
+## 10.1 CI/CD
+
+Implement an appropriate continuous integration and deployment pipeline.
+
+Support:
+
+- Automated linting.
+- Type checking.
+- Unit testing.
+- Integration testing.
+- Build verification.
+- Dependency checks.
+- Security scanning.
+- Preview deployment.
+- Production deployment approval.
+
+Use the existing deployment infrastructure where appropriate.
+
+## 10.2 Environment management
+
+Separate:
+
+- Local development.
+- Testing.
+- Staging.
+- Production.
+
+Ensure secrets and environment variables are managed securely.
+
+Never expose production credentials in source code.
+
+## 10.3 Observability
+
+Implement appropriate:
+
+- Application logging.
+- Error tracking.
+- Performance monitoring.
+- API monitoring.
+- Database monitoring.
+- Infrastructure monitoring.
+- AI service monitoring.
+- Background job monitoring.
+
+Use structured logs and appropriate correlation identifiers.
+
+Avoid logging passwords, access tokens, facial images, or unnecessary personal information.
+
+## 10.4 Distributed tracing
+
+For systems with multiple services, support tracing across:
+
+- Frontend requests.
+- Backend services.
+- Database operations.
+- AI inference.
+- External APIs.
+- Background tasks.
+
+Identify latency bottlenecks and failed dependencies.
+
+## 10.5 Reliability
+
+Establish:
+
+- Health checks.
+- Readiness checks.
+- Liveness checks.
+- Graceful error handling.
+- Retry policies.
+- Timeouts.
+- Circuit breakers where appropriate.
+- Rate limiting.
+- Queue monitoring.
+- Recovery procedures.
+
+Avoid unlimited retries and retry storms.
+
+## 10.6 Release management
+
+Implement:
+
+- Versioned releases.
+- Changelogs.
+- Release notes.
+- Deployment verification.
+- Rollback plans.
+- Database migration strategies.
+- Feature flags where useful.
+
+Never deploy risky changes directly to production without appropriate review.
+
+## 10.7 Performance
+
+Monitor:
+
+- Core Web Vitals.
+- API latency.
+- Database query performance.
+- AI inference latency.
+- Error rates.
+- Resource consumption.
+- 3D rendering performance.
+- Mobile loading speed.
+
+Establish measurable performance baselines before setting optimization targets.
+
+## 10.8 Cost observability
+
+Track relevant infrastructure and AI costs.
+
+Include:
+
+- API usage.
+- Model inference.
+- Token consumption.
+- Database usage.
+- Storage.
+- Bandwidth.
+- Third-party services.
+- Background processing.
+
+Identify opportunities to reduce unnecessary cost without degrading user experience.
+
+---
+
+# 11. ENTERPRISE INTEGRATION ARCHITECTURE
+
+All eight modules must operate within a coherent architecture.
+
+Design integration boundaries between:
+
+- Customer experience.
+- E-commerce.
+- CRM.
+- CMS.
+- AI services.
+- Agent orchestration.
+- Business intelligence.
+- Inventory.
+- Supply chain.
+- Administration.
+- Security.
+- Observability.
+
+Use a modular service architecture appropriate to the actual project scale.
+
+Do not automatically introduce microservices.
+
+A well-structured modular monolith may be more appropriate for the current application.
+
+Only introduce separate services when there is a clear technical or operational reason.
+
+Define:
+
+- API contracts.
+- Event contracts.
+- Data ownership.
+- Authentication boundaries.
+- Authorization rules.
+- Error handling.
+- Integration monitoring.
+- Data synchronization.
+- Versioning strategy.
+
+Avoid circular dependencies and uncontrolled cross-module access.
+
+---
+
+# 12. SHARED DATA ARCHITECTURE
+
+Create a unified data architecture that avoids unnecessary duplication.
+
+Identify authoritative sources for:
+
+- Products.
+- Ingredients.
+- Customers.
+- Orders.
+- Inventory.
+- Marketing campaigns.
+- Content.
+- AI knowledge.
+- Analytics.
+- Operational events.
+
+Define:
+
+- Entity relationships.
+- Data ownership.
+- Data validation.
+- Data retention.
+- Data quality rules.
+- Data lineage.
+- Access permissions.
+- Data migration strategy.
+
+Use appropriate database technologies already available in the project.
+
+Do not introduce additional databases without a clear need.
+
+---
+
+# 13. ADMINISTRATIVE CONTROL CENTER
+
+Develop an enterprise administration experience.
+
+The administration interface should provide authorized employees with access to relevant modules.
+
+Potential sections:
+
+1. Executive Overview.
+2. Product Management.
+3. Customer Management.
+4. Order Management.
+5. Inventory.
+6. Marketing.
+7. Content Management.
+8. AI Management.
+9. Agent Operations.
+10. Analytics.
+11. Supply Chain.
+12. Security.
+13. System Monitoring.
+14. User and Role Management.
+15. Integration Management.
+
+Apply role-based permissions to each section and action.
+
+Do not expose all administrative capabilities to every employee.
+
+Provide audit logs for sensitive operations.
+
+---
+
+# 14. IMPLEMENTATION PRIORITIZATION
+
+Do not implement all modules simultaneously.
+
+First audit the actual project.
+
+Then evaluate each module using:
+
+- Business impact.
+- Customer impact.
+- Technical feasibility.
+- Data availability.
+- Implementation effort.
+- Operating cost.
+- Security risk.
+- Maintenance complexity.
+- Dependency on external systems.
+
+Use the following suggested roadmap.
+
+## Stage 1: Operational foundation
+
+Priority:
+
+- Enterprise Security.
+- DevOps.
+- Observability.
+- Data quality.
+- Architecture improvements.
+
+Goal:
+
+Create a secure and reliable foundation.
+
+## Stage 2: Business visibility
+
+Priority:
+
+- Business Intelligence.
+- Executive dashboards.
+- E-commerce analytics.
+- Product analytics.
+- Customer analytics.
+
+Goal:
+
+Make business operations measurable.
+
+## Stage 3: Content and marketing operations
+
+Priority:
+
+- Content Intelligence.
+- CMS.
+- Editorial workflow.
+- SEO management.
+- Marketing analytics.
+
+Goal:
+
+Build a scalable content and marketing operation.
+
+## Stage 4: AI automation
+
+Priority:
+
+- Agentic AI.
+- Agent orchestration.
+- Customer support automation.
+- Product intelligence.
+- Data analyst assistant.
+
+Goal:
+
+Reduce repetitive work and improve operational efficiency.
+
+## Stage 5: Commerce integration
+
+Priority:
+
+- Omnichannel architecture.
+- Unified customer identity.
+- Order synchronization.
+- CRM integration.
+- Loyalty integration.
+
+Goal:
+
+Create a consistent customer experience.
+
+## Stage 6: Supply chain intelligence
+
+Priority:
+
+- Inventory intelligence.
+- Demand forecasting.
+- Batch traceability.
+- Operational alerts.
+- Digital twin prototypes.
+
+Goal:
+
+Connect customer demand with operational capabilities.
+
+## Stage 7: International expansion
+
+Priority:
+
+- Localization.
+- Multi-currency architecture.
+- International SEO.
+- Shipping integrations.
+- Market-specific product information.
+
+Goal:
+
+Prepare for future international growth.
+
+The roadmap is a proposed sequence, not a requirement to implement every feature immediately.
+
+Adjust it based on the actual business, available resources, and technical dependencies.
+
+---
+
+# 15. NON-FUNCTIONAL REQUIREMENTS
+
+Every module must consider:
+
+## Performance
+
+- Fast response times.
+- Efficient database access.
+- Optimized frontend assets.
+- Scalable processing.
+- Efficient AI inference.
+
+## Reliability
+
+- Predictable error handling.
+- Graceful degradation.
+- Monitoring.
+- Recovery procedures.
+- Appropriate retry policies.
+
+## Security
+
+- Least privilege.
+- Secure authentication.
+- Data protection.
+- Auditability.
+- Secure integration boundaries.
+
+## Maintainability
+
+- Modular code.
+- Clear interfaces.
+- Documentation.
+- Automated testing.
+- Consistent conventions.
+
+## Scalability
+
+- Extensible architecture.
+- Controlled resource consumption.
+- Appropriate caching.
+- Background processing when necessary.
+- Well-defined service boundaries.
+
+## Accessibility
+
+- Keyboard navigation.
+- Screen reader compatibility.
+- Responsive layouts.
+- Appropriate contrast.
+- Accessible forms.
+- Reduced-motion support.
+
+---
+
+# 16. TESTING STRATEGY
+
+Test all new enterprise modules.
+
+## Business Intelligence
+
+- Validate metric calculations.
+- Verify data source consistency.
+- Test missing data handling.
+- Validate forecasting against baselines.
+- Test access permissions.
+
+## Agentic AI
+
+- Test agent task completion.
+- Test tool permissions.
+- Test prompt injection resistance.
+- Test incorrect or incomplete data.
+- Test human approval workflows.
+- Test execution failures.
+
+## Omnichannel
+
+- Test data synchronization.
+- Test duplicate events.
+- Test conflicting updates.
+- Test order consistency.
+- Test customer identity resolution.
+
+## Security
+
+- Run appropriate application security tests.
+- Verify authorization boundaries.
+- Test sensitive data exposure.
+- Test authentication.
+- Test file upload handling.
+- Verify audit logging.
+
+## CMS
+
+- Test editorial workflows.
+- Test publication permissions.
+- Test content versioning.
+- Test localization.
+- Test SEO metadata.
+
+## Supply Chain
+
+- Validate inventory calculations.
+- Test batch records.
+- Test expiry alerts.
+- Evaluate forecasting quality.
+- Test synchronization failures.
+
+## Global Expansion
+
+- Test language switching.
+- Test localized routes.
+- Test currency formatting.
+- Test country-specific configuration.
+- Test SEO localization.
+
+## DevOps
+
+- Test CI pipeline.
+- Test production builds.
+- Test deployment previews.
+- Test rollback procedures.
+- Test backup restoration.
+
+Do not mark tests as passed unless they have actually been executed.
+
+---
+
+# 17. PRODUCTION READINESS GATES
+
+Before production deployment, verify:
+
+1. Critical application workflows work.
+2. No known critical security issue remains unresolved.
+3. Permissions are correctly enforced.
+4. Data migrations are reviewed.
+5. Backups are verified.
+6. Monitoring is operational.
+7. Relevant tests pass.
+8. Production configuration is correct.
+9. External integrations are verified.
+10. Failure and recovery procedures are documented.
+
+Require explicit authorization before destructive operations or production changes with significant impact.
+
+---
+
+# 18. FINAL DELIVERABLES
+
+At the end of the work, generate a detailed enterprise engineering report.
+
+Include:
+
+## A. Architecture
+
+- Current architecture.
+- Proposed architecture.
+- Module boundaries.
+- Integration design.
+- Data architecture.
+- Security architecture.
+
+## B. Business Intelligence
+
+- Available data sources.
+- Dashboard implementation.
+- Metric definitions.
+- Analytical methods.
+- Forecasting evaluation.
+- Known limitations.
+
+## C. Agentic AI
+
+- Agent architecture.
+- Agent capabilities.
+- Tool permissions.
+- Human approval workflows.
+- Evaluation results.
+- Cost and latency analysis.
+
+## D. Omnichannel
+
+- Supported channels.
+- Integration status.
+- Synchronization strategy.
+- Customer identity model.
+- Outstanding dependencies.
+
+## E. Security
+
+- Threat model.
+- Security audit.
+- Permission matrix.
+- Privacy controls.
+- Backup and recovery.
+- Outstanding risks.
+
+## F. Content Intelligence
+
+- CMS capabilities.
+- Editorial workflow.
+- SEO architecture.
+- AI content functionality.
+- Asset management.
+
+## G. Supply Chain
+
+- Inventory architecture.
+- Traceability capabilities.
+- Forecasting results.
+- Digital twin implementation status.
+
+## H. Global Expansion
+
+- Localization status.
+- Currency architecture.
+- International SEO.
+- Shipping and payment dependencies.
+- Market-specific limitations.
+
+## I. DevOps
+
+- CI/CD.
+- Deployment status.
+- Monitoring.
+- Logging.
+- Performance.
+- Recovery.
+- Cost monitoring.
+
+## J. Overall implementation status
+
+Classify each feature:
+
+- Completed and verified.
+- Implemented but not fully verified.
+- Prototype only.
+- Designed but not implemented.
+- Blocked by missing dependencies.
+- Not currently recommended.
+
+Include evidence for important claims.
+
+Identify the files, tests, configurations, and integration results supporting each status.
+
+---
+
+# 19. FINAL OPERATING PRINCIPLES
+
+Follow these principles throughout development.
+
+**Business value before technical novelty.**
+
+Do not implement technology simply because it is impressive.
+
+**Data before AI claims.**
+
+Do not build business intelligence or machine learning features on fabricated or unreliable information.
+
+**Security before automation.**
+
+Do not give autonomous agents unrestricted access to business systems.
+
+**Reliability before scale.**
+
+Do not introduce unnecessary infrastructure complexity.
+
+**Human oversight for consequential actions.**
+
+AI can analyze, recommend, and prepare actions. Sensitive operations require appropriate authorization.
+
+**Modular architecture before uncontrolled growth.**
+
+Every new capability must fit into a coherent system.
+
+**Measurable outcomes before marketing claims.**
+
+Every performance, business, and AI improvement must have evidence.
+
+**Real implementation before visual demonstration.**
+
+A rendered interface is not proof of a working feature.
+
+---
+
+# 20. FINAL MISSION
+
+Your ultimate mission is to evolve Thorakao into a future-ready enterprise digital ecosystem.
+
+The platform should combine:
+
+- Vietnamese herbal heritage.
+- Modern cosmetic science.
+- AI-powered customer experiences.
+- Intelligent commerce.
+- Business intelligence.
+- Agentic automation.
+- Customer relationship management.
+- Supply chain intelligence.
+- Secure enterprise operations.
+- Global digital expansion.
+
+The system must be distinctive, useful, reliable, maintainable, secure, and commercially meaningful.
+
+Start by auditing the existing project.
+
+Identify what already exists, what overlaps with the previous Thorakao Master Prompt, what is missing, and what is technically feasible.
+
+Create a dependency-aware implementation roadmap.
+
+Then implement each approved module incrementally.
+
+Do not duplicate existing functionality.
+
+Do not fabricate data or successful integrations.
+
+Do not sacrifice the existing working application.
+
+**Build an enterprise ecosystem that Thorakao can genuinely operate, improve, and expand over the long term.**

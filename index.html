@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>THORAKAO · Grandma's Secret</title>
+<meta name="description" content="Thorakao: Vietnamese skincare since 1961. Natural Vietnamese ingredients, simple routines and student-friendly prices. Academic concept.">
+<meta name="theme-color" content="#eddfc7"><meta name="color-scheme" content="light">
+<meta property="og:title" content="THORAKAO · Grandma's Secret"><meta property="og:description" content="Vietnamese skincare since 1961. Scan your skin and get a simple routine.">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Thorakao Vietnam"><meta property="og:url" content="https://asm2-adv10002.vercel.app/"><meta property="og:image" content="https://asm2-adv10002.vercel.app/assets/hero-art.jpg">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="THORAKAO · Grandma's Secret"><meta name="twitter:description" content="Vietnamese botanical skincare since 1961. Try our YOLOv8n AI Skin Scan and interactive 3D Herbal Garden."><meta name="twitter:image" content="https://asm2-adv10002.vercel.app/assets/hero-art.jpg">
+<link rel="canonical" id="canonical-link" href="https://asm2-adv10002.vercel.app/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23a51f1e'/%3E%3Ctext x='32' y='46' font-size='40' text-anchor='middle' font-family='serif' fill='%23f8f0df'%3ET%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,500;1,600&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,500;1,600&display=swap"></noscript>
+<link rel="stylesheet" href="./src/styles/main.css">
+<script type="importmap">{"imports":{"three":"./node_modules/three/build/three.module.js","three/addons/":"./node_modules/three/examples/jsm/"}}</script>
+<script type="application/ld+json" id="schema-ld">{"@context":"https://schema.org","@type":"Organization","name":"Thorakao · Lan Hảo Cosmetics","foundingDate":"1961","url":"https://asm2-adv10002.vercel.app/"}</script>
+</head>
+<body>
+<button type="button" class="skip" data-skip>Skip to main content</button>
+<div id="live" class="sr" aria-live="polite"></div>
+<noscript><p style="padding:24px">This site needs JavaScript to show products and the skin scan. Please enable it and reload.</p></noscript>
+<div id="progress" class="top-progress" aria-hidden="true"></div>
+<header class="site-head" id="sh"><div class="wrap head-inner">
+<button type="button" class="logo" data-go="home">THORAKAO</button>
+<nav class="nav" id="nav" aria-label="Main"><button type="button" data-go="shop">Shop</button><button type="button" data-go="scan">AI Skin Scan</button><button type="button" data-go="story">Ingredients &amp; Story</button><button type="button" data-go="tips">Skin Tips</button><button type="button" data-go="contact">Where to Buy</button><div class="lang nav-lang" role="group" aria-label="Language"><button type="button" data-lang="en" aria-pressed="true">EN</button><button type="button" data-lang="vi" aria-pressed="false">VI</button></div></nav>
+<div class="hr">
+<button type="button" class="sbtn" data-eco-open="assistant" aria-label="AI Assistant"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 3l2.2 5.8L20 11l-5.8 2.2L12 19l-2.2-5.8L4 11l5.8-2.2L12 3z"/></svg><span class="t">AI Assistant</span></button>
+<button type="button" class="sbtn" id="srch" aria-label="Search, shortcut slash"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg><span class="t">Search</span><kbd>/</kbd></button>
+<div class="lang" role="group" aria-label="Language"><button type="button" data-lang="en" aria-pressed="true">EN</button><button type="button" data-lang="vi" aria-pressed="false">VI</button></div>
+<button type="button" class="menu-btn" id="menub" aria-label="Menu" aria-expanded="false" aria-controls="nav"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+<button type="button" class="bag-trigger" id="bo"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 8h12l-1 12H7L6 8z"/><path d="M9 8V6a3 3 0 016 0v2"/></svg><span class="bl">Bag (</span><span id="cnt">0</span><span class="bl">)</span></button>
+</div></div></header>
+
+<main id="main" tabindex="-1">
+<div id="home-view" class="page-view">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id="lotus-art" viewBox="0 0 120 100"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M60 8C48 28 48 52 60 72C72 52 72 28 60 8Z"/><path d="M60 72C40 66 26 48 28 24C44 30 56 48 60 72Z"/><path d="M60 72C80 66 94 48 92 24C76 30 64 48 60 72Z"/><path d="M60 72C34 74 14 62 8 42C26 42 48 54 60 72Z"/><path d="M60 72C86 74 106 62 112 42C94 42 72 54 60 72Z"/><path d="M60 22C56 36 56 50 60 62" stroke-width="1"/><path d="M40 36C42 48 48 58 54 66M80 36C78 48 72 58 66 66" stroke-width="1"/><path d="M30 84C46 91 74 91 90 84M42 93C54 97 66 97 78 93"/></g></symbol></svg>
+<section class="hero" id="hero"><div class="lotus lotus-1" aria-hidden="true"><svg viewBox="0 0 120 100"><use href="#lotus-art"/></svg></div><div class="lotus lotus-2" aria-hidden="true"><svg viewBox="0 0 120 100"><use href="#lotus-art"/></svg></div><div class="lotus lotus-3" aria-hidden="true"><svg viewBox="0 0 120 100"><use href="#lotus-art"/></svg></div><div class="hero-grid">
+<div class="hero-text">
+<p class="eyebrow-line">Since 1961 · Grandma's Secret</p>
+<h1 id="hero-title"><span class="l1">Grandma's Secret,</span><span class="l2">Your Glowing Skin</span></h1>
+<p class="hero-copy">Thorakao, Vietnamese skincare since 1961, with familiar natural ingredients for a simple and safe routine.</p>
+<div class="hero-actions"><button type="button" class="pill" data-add="duo">Explore the Turmeric Set, 89,000 VND <span aria-hidden="true">→</span></button><button type="button" class="pill outline" data-go="scan">Check my skin (30 sec) <span aria-hidden="true">→</span></button></div>
+<div class="slider-area"><div class="slider-labels"><span>1961</span><span>Today</span></div>
+<label class="sr" for="yr">Travel from 1961 to today</label><input id="yr" type="range" min="0" max="100" value="0" aria-describedby="yl" aria-valuetext="1961: The first products, made from Vietnamese ingredients"><span id="yl">The first products, made from Vietnamese ingredients</span></div>
+<div class="trust"><span>Since 1961</span><span>Natural Vietnamese ingredients</span><span>Student-friendly prices</span></div>
+</div>
+<div class="hero-art"><img id="hart" class="photo" data-img="hero-art" alt="Thorakao turmeric face wash, turmeric cream, cucumber toner and lip balm on a stone podium with lotus illustrations" fetchpriority="high"></div>
+</div></section>
+
+<div class="marquee" aria-hidden="true"><div class="marquee-track" id="mq"></div></div>
+
+<section class="days section-pad"><div class="wrap">
+<div class="intro"><p class="eyebrow">Grandma's secret</p><h2>Familiar ingredients, simple routines</h2><p>Turmeric, cucumber and other ingredients Vietnamese families already know, in a routine that takes only minutes.</p></div>
+<div id="days-rows"></div></div></section>
+
+<section class="numbers"><div class="wrap number-grid">
+<div><strong class="num" data-count="1961">0</strong><p>the year Thorakao began</p></div>
+<div><strong class="num" data-count="65">0</strong><p>years of Vietnamese skincare</p></div>
+<div><strong class="num">&lt;100k</strong><p>VND: Vietnamese press reports most Thorakao products stay under this price</p></div>
+</div></section>
+
+<section class="sellers section-pad" id="sellers"><div class="wrap">
+<div class="carousel-head"><div class="intro"><p class="eyebrow">Best sellers</p><h2>Easy to start, easy to keep</h2></div>
+<div class="arrows"><button type="button" class="round" aria-label="Previous products" data-scroll="-1">←</button><button type="button" class="round" aria-label="Next products" data-scroll="1">→</button></div></div>
+<div id="car" class="products" tabindex="0" aria-label="Best sellers, scroll sideways"></div>
+<button type="button" class="pill outline" data-go="shop">View all products</button>
+</div></section>
+
+<section class="routine section-pad" id="routine"><div class="wrap routine-grid">
+<div><p class="eyebrow">How to use</p><h2>A simple routine, step by step</h2>
+<div class="tabs" role="group" aria-label="Routine steps" id="tabs"></div>
+<div class="step-content" id="step"></div>
+<p><small>Always follow the leaflet and label in each box. Stop using a product if your skin feels irritated.</small></p>
+<button type="button" class="pill" data-go="scan" style="margin-top:16px">Get my personal routine</button></div>
+<div id="rphotos"></div>
+</div></section>
+
+<section class="reviews section-pad" id="reviews"><div class="wrap">
+<div class="intro"><p class="eyebrow">Real reviews</p><h2>Trusted across generations</h2><p>★ 4.7 average from 400+ reviews (sample data for this concept)</p></div>
+<div class="review-grid" id="rv"></div>
+<button type="button" class="pill" id="more-rv" style="margin-bottom:36px">Read all reviews</button>
+<div class="intro"><p class="eyebrow">Gallery</p><h2>Botanical stories</h2></div>
+<div class="gallery" id="gal"></div>
+</div></section>
+
+<section class="scan-banner"><div class="wrap scan-banner-grid">
+<div><p class="eyebrow" style="color:#e7c98a">AI Skin Scan</p><h2>Know your skin in 30 seconds</h2>
+<p>Answer 4 quick questions, add an optional selfie, and get your own skin report with a routine made from Thorakao products. Skincare guidance, not a medical diagnosis.</p>
+<div class="mini-card"><strong>Your Skin Report</strong><br><small>Skin check: Mild · Turmeric Set · From 89,000 VND</small></div>
+<div class="row"><button type="button" class="pill" data-go="scan">Start my Skin Scan</button><button type="button" class="pill outline" data-go="scan" data-quiz="1">No camera? Take the quiz</button></div></div>
+<img class="photo" data-img="set-routine" alt="Thorakao face wash, cream and toner" loading="lazy">
+</div></section>
+
+<section class="bundle redband"><div class="wrap bundle-grid">
+<img class="photo bundle-photo" data-img="set-duo" alt="Thorakao turmeric face wash and cream" loading="lazy">
+<div><p class="eyebrow" style="color:#f4d9a6">Launch offer</p><h2>Turmeric Set</h2>
+<p class="row"><s>104,000 VND</s><strong class="fr" style="font-size:34px;color:#fff">89,000 VND</strong></p>
+<p>Turmeric Face Wash plus Turmeric Cream for a simple evening routine. Save 15,000 VND. Free shipping over 199,000 VND, 30-day returns (sample policies).</p>
+<p id="cd"></p><p style="margin-top:12px" class="row"><button type="button" class="pill" data-add="duo">Add the set to bag</button><button type="button" class="pill outline" style="color:#fff;border-color:#fff" data-promo="show">Get my discount code</button></p></div>
+</div></section>
+
+<section class="tips section-pad" id="tips"><div class="wrap">
+<div class="intro"><p class="eyebrow">Skin tips</p><h2>Small habits, calm skin</h2></div>
+<div class="tips-grid"><article><img class="photo tips-img" data-img="botanical" style="object-position:center top" alt="Lotus line art" loading="lazy"><h3 style="margin-top:18px">Your first routine</h3><p style="margin-top:10px">Start with two steps: cleanse, then one night cream. Add more only when your skin feels comfortable, and check the label before every new product.</p><button type="button" class="pill outline" data-go="tips" style="margin-top:16px">More skin tips</button></article>
+<aside class="ad"><span class="eyebrow">Sponsored content</span><p style="margin-top:12px">Native ad slot for a partner brand. Placeholder content.</p></aside></div>
+</div></section>
+
+<section class="where section-pad"><div class="wrap where-grid">
+<div><p class="eyebrow">Where to buy</p><h2>Easy to find, near you</h2><p style="margin:18px 0">Order from our official online store, or find Thorakao at pharmacies, marketplaces and local shops. Open the map to see Google Maps listings around your city.</p><button type="button" class="pill" data-go="contact">Find where to buy</button></div>
+<img class="photo" data-img="hero-art" style="object-position:80% center" alt="Thorakao products with lotus illustrations" loading="lazy"></div></section>
+
+<section class="newsletter"><div class="wrap narrow" style="max-width:760px"><form id="nf">
+<h2 style="color:#fff;font-size:clamp(26px,3.4vw,40px)">Get early access to Grandma's Secret offers</h2>
+<div class="nl-grid"><div><label for="nn">Name</label><input id="nn" required maxlength="80" autocomplete="name" class="in"></div><div><label for="ne">Email</label><input id="ne" type="email" required maxlength="160" autocomplete="email" class="in"></div></div>
+<p style="margin-top:14px"><button class="pill" type="submit">Subscribe</button></p></form><p id="ns" role="status" style="margin-top:10px"></p></div></section>
+</div>
+
+<div id="shop-view" class="page-view inner-page" hidden><div class="wrap">
+<p class="eyebrow">Shop</p><h1 class="pt">All products</h1>
+<p>Prices are illustrative. Free shipping over 199,000 VND (sample policy). Have a code? Add it in your bag.</p>
+<h2 class="sr">Products</h2><div class="filters" id="fl" role="group" aria-label="Filter products"></div>
+<div id="sg" class="shop-layout"></div></div></div>
+
+<div id="scan-view" class="page-view inner-page scan-page" hidden><div class="wrap">
+<p class="eyebrow">AI Skin Scan</p><h1 class="pt">Know your skin in 30 seconds</h1>
+<p>Demo mode: detection is simulated in this prototype. The recommendation rules are real.</p>
+<div id="s-consent" class="scan-panel state"><h2>Before we start</h2>
+<p>In the final product, your photo is analysed on your device and never uploaded. This is skincare guidance, not a medical diagnosis.</p>
+<label><input id="cc" type="checkbox"> I agree to the scan and understand it is not a medical diagnosis.</label>
+<div class="row" style="margin-top:14px"><button type="button" class="pill" id="go1">Start my skin scan</button><button type="button" class="pill outline" id="go2">No camera? Take the quiz</button></div>
+<p id="ce" role="status"></p></div>
+<div id="s-capture" class="scan-panel state" hidden><h2>Add a selfie (optional)</h2>
+<p>Face a window, no makeup, hair off your face.</p><label for="sf">Choose a photo</label><input id="sf" class="in" type="file" accept="image/*">
+<div class="scan-preview"><img id="lp" class="photo" alt="Your selected photo" hidden><img id="lph" class="photo" data-img="botanical" alt="Face guide" style="object-position:center"><div class="scan-overlay"></div></div>
+<div id="yolo-capture-lab" class="yolo-lab-box" data-i18n-skip="true"></div>
+<div class="row"><button type="button" class="pill" id="an">Analyse my photo</button><button type="button" class="pill outline" id="sk">Skip the photo</button></div></div>
+<div id="s-work" class="scan-panel state" hidden><h2>Taking a gentle look</h2>
+<div class="scan-preview"><img id="wp" class="photo" alt="Photo being analysed"><i class="bx" style="top:30%;left:24%"></i><i class="bx" style="top:48%;right:22%"></i><i class="bx" style="top:62%;left:40%"></i></div>
+<div class="bar"><i style="width:60%"></i></div><p>Analysing your skin. Nothing leaves your device in the final product.</p></div>
+<div id="s-q" class="scan-panel state" hidden><div id="qb"></div></div>
+<div id="s-res" class="scan-panel state" hidden></div>
+</div></div>
+
+<div id="story-view" class="page-view inner-page" hidden><div class="wrap">
+<p class="eyebrow">Ingredients &amp; Story</p><h1 class="pt">Sixty-five years of Vietnamese skincare</h1>
+<div class="story-grid"><p style="font-size:19px">Thorakao is a Vietnamese skincare name that many families have trusted for generations. It grew from homemade cream made with local ingredients into a brand known for its turmeric cream, ginseng cream and pomelo flower shampoo.</p><img class="photo" data-img="hero-art" style="object-position:center" alt="Thorakao products with lotus illustrations" loading="lazy"></div>
+<div id="herbal-garden-root" data-i18n-skip="true"></div>
+<h2>Timeline</h2>
+<ol class="tl"><li><b>1957</b> Mrs. Lan Hảo starts making skin cream from local ingredients.</li><li><b>1961</b> The Lan Hảo company is founded and the Thorakao name is born.</li><li><b>1969</b> Thorakao runs six branches in southern Vietnam and one in Cambodia.</li><li><b>1987</b> The company returns after closing in 1975.</li><li><b>Today</b> Creams, cleansers and hair care found across Vietnam.</li></ol>
+<h2>Our promise</h2>
+<div class="promise"><div><h3>Natural Vietnamese ingredients</h3><p style="margin-top:8px">From turmeric to cucumber, our formulas start with ingredients Vietnamese families already know.</p></div><div><h3>Simple routines</h3><p style="margin-top:8px">Two or three steps, with clear instructions on every box.</p></div><div><h3>Prices students can afford</h3><p style="margin-top:8px">Most Thorakao products are priced under 100,000 VND (sample prices for this concept).</p></div></div>
+<h2>Our ingredients</h2><div id="ing" class="ing"></div>
+<button type="button" class="pill" data-go="shop">Shop by ingredient</button>
+</div></div>
+
+<div id="tips-view" class="page-view inner-page" hidden><div class="wrap">
+<p class="eyebrow">Skin tips</p><h1 class="pt">Small habits, calm skin</h1>
+<div class="ad" style="margin-top:22px">Ad space: banner</div>
+<div class="filters" id="tcats" role="group" aria-label="Filter articles"></div>
+<h2 class="sr">Articles</h2><div id="tg2" class="tgrid"></div>
+</div></div>
+
+<div id="contact-view" class="page-view inner-page" hidden><div class="wrap">
+<p class="eyebrow">Where to buy &amp; contact</p><h1 class="pt">Find Thorakao near you</h1>
+<p class="lead">Thorakao sells through its official website, online marketplaces, pharmacies and local distributors. It does not publish a list of retail stores, so the map searches Google Maps for Thorakao listings around each city. Always confirm availability before you travel.</p>
+<div class="map-grid">
+<section aria-labelledby="wh"><h2 id="wh" style="font-size:36px">Locations</h2>
+<label for="lcity">City</label><select id="lcity" class="in"><option value="hcm">Ho Chi Minh City</option><option value="hn">Hanoi</option><option value="dn">Da Nang</option><option value="ct">Can Tho</option></select>
+<ul id="lloc" class="locs"></ul>
+<h3 style="margin:22px 0 8px">Buy online</h3>
+<ul class="onl"><li><a href="https://thorakao.com/en" target="_blank" rel="noopener">Official online store (thorakao.com)</a></li><li><a href="https://www.pharmacity.vn/thuong-hieu/thorakao" target="_blank" rel="noopener">Pharmacity: Thorakao brand page</a></li><li><a href="https://chiaki.vn/thorakao/my-pham" target="_blank" rel="noopener">Chiaki: Thorakao cosmetics</a></li><li><a href="https://shopee.vn/search?keyword=thorakao" target="_blank" rel="noopener">Search Thorakao on Shopee</a></li><li><a href="https://www.lazada.vn/catalog/?q=thorakao" target="_blank" rel="noopener">Search Thorakao on Lazada</a></li></ul></section>
+<section aria-labelledby="mp"><h2 id="mp" style="font-size:36px">Map</h2>
+<div class="mapbox" id="mapbox"></div>
+<div class="row" style="margin-top:12px"><a id="mopen" class="pill" target="_blank" rel="noopener" href="#">Open in Google Maps</a><a id="mdir" class="pill outline" target="_blank" rel="noopener" href="#">Get directions</a></div>
+<p class="small" style="margin-top:12px">Map data by Google. Locations come from the company contact page, the business registry and Google listings. Listings may be incomplete or out of date.</p></section></div>
+<div class="cgrid" style="margin-top:56px">
+<section aria-labelledby="ct"><h2 id="ct" style="font-size:36px">Contact us</h2>
+<form id="cf" novalidate><div id="cfer" role="alert"></div>
+<label for="cfn">Name</label><input class="in" id="cfn" autocomplete="name">
+<label for="cfe">Email</label><input class="in" id="cfe" type="email" autocomplete="email">
+<label for="cft">Topic</label><select class="in" id="cft"><option>Order</option><option>Skin advice</option><option>Where to buy</option><option>Partnership</option></select>
+<label for="cfm">Message</label><textarea class="in" id="cfm" rows="4"></textarea>
+<p style="margin-top:14px"><button type="submit" class="pill">Send message</button></p></form>
+<div id="cfok" class="note" hidden><b>Thank you!</b> We reply within 1 business day (sample). Demo: nothing was sent.</div>
+<p class="small" style="margin-top:14px">Official company contact (from thorakao.com): phone 028 8887 3241, email info@thorakao.com.</p></section>
+<section aria-labelledby="fq"><h2 id="fq" style="font-size:36px">FAQ</h2>
+<details><summary>How fast will my order arrive?</summary><p>Orders in Ho Chi Minh City arrive in 1 to 2 days (sample policy).</p></details>
+<details><summary>Can I return a product?</summary><p>Yes, within 30 days if unopened (sample policy).</p></details>
+<details><summary>How does the skin scan work?</summary><p>You answer 4 questions and can add a selfie. In the final product the photo is analysed on your device and never uploaded.</p></details>
+<details><summary>Is the scan a medical diagnosis?</summary><p>No. It gives skincare guidance only. If your skin is painful or severe, see a dermatologist.</p></details>
+<details><summary>How do discount codes work?</summary><p>Enter a code in your bag. Codes THORA10, THORA15 and THORA20 give 10%, 15% and 20% off, with higher codes unlocking on larger orders (demo offer).</p></details></section></div>
+</div></div>
+</main>
+
+<section class="cta-band no-print" id="ctaband"><div class="wrap"><h2>Ready for your Thorakao routine?</h2><div class="row"><button type="button" class="pill" data-go="scan">Scan my skin</button><button type="button" class="pill outline" data-go="shop">Shop now</button></div></div></section>
+
+<footer class="footer no-print"><div class="wrap">
+<nav class="footer-links" aria-label="Footer"><button type="button" data-go="home">Home</button><button type="button" data-go="shop">Shop</button><button type="button" data-go="scan">AI Skin Scan</button><button type="button" data-go="story">Ingredients &amp; Story</button><button type="button" data-go="tips">Skin tips</button><button type="button" data-go="contact">Where to buy</button><button type="button" data-eco-open="assistant">AI Assistant</button><button type="button" data-eco-open="account">Account &amp; Orders</button><button type="button" data-eco-open="admin">Admin Portal</button></nav>
+<p style="margin-top:22px;max-width:780px"><small>Academic concept for ADV10002, not affiliated with Thorakao. Hero and product images come from a supplied design mockup. Prices, ratings and reviews are illustrative; product wording follows retailer listings and must be checked against official labels.</small></p>
+<div class="wordmark" aria-hidden="true">THORAKAO</div></div></footer>
+
+<div class="mobile-actions no-print" id="ma"><button type="button" class="pill" data-add="duo">Add the set</button><button type="button" class="pill outline" data-go="scan">Scan my skin</button></div>
+<div id="bb" class="drawer-backdrop" hidden></div>
+<aside id="bag" class="drawer" role="dialog" aria-modal="true" aria-labelledby="bt" hidden>
+<div class="row" style="justify-content:space-between"><h2 id="bt" style="font-size:34px">Your bag</h2><button type="button" class="round" id="bx" aria-label="Close bag">×</button></div>
+<div id="bl"></div><div id="bf"></div></aside>
+<dialog id="pd" aria-label="Product details"><div class="dlg" id="pdc"></div></dialog>
+<dialog id="rd" aria-label="Article"><div class="dlg" id="rdc"></div></dialog>
+<dialog id="ecod" aria-label="AI Assistant, Account and Admin"><div class="dlg" id="ecodc"></div></dialog>
+<dialog id="srchd" aria-label="Search"><div class="sqwrap"><label class="sr" for="sqi">Search products, articles and pages</label><input id="sqi" type="search" placeholder="Search turmeric, toner, lip balm..." autocomplete="off"><ul id="sres"></ul></div></dialog>
+<aside id="promo" class="promo no-print" role="dialog" aria-labelledby="ptl" hidden>
+<p class="eyebrow">Thank you for browsing</p><h3 id="ptl">Still deciding? Take a little off.</h3>
+<p>Use this code for <b id="ppct">10%</b> off your order on our website.</p>
+<span class="code" id="pcode">THORA10</span>
+<p class="small" id="pnote"></p>
+<div class="row"><button type="button" class="pill" data-promo="apply">Apply to my bag</button><button type="button" class="pill outline" data-promo="copy">Copy code</button><button type="button" class="pill outline" data-promo="close">No thanks</button></div></aside>
+<div id="ck" class="ck no-print" hidden role="region" aria-label="Cookie preferences"><p>We use analytics cookies to learn what helps visitors. You can decline.</p><div class="row"><button type="button" class="pill" data-ck="1">Accept</button><button type="button" class="pill outline" data-ck="0">Decline</button></div></div>
+<div id="toast" class="toast" role="status"></div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>

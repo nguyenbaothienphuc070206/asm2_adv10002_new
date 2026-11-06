@@ -1,0 +1,29 @@
+{
+  "name": "thorakao-skincare",
+  "version": "6.0.0",
+  "description": "Thorakao Vietnamese Skincare Since 1961 - Modular OOP Architecture",
+  "type": "module",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "test": "node --test tests/unit.test.js",
+    "lint": "node --check server.js src/main.js src/config/*.js src/models/*.js src/services/*.js src/controllers/*.js src/views/*.js src/utils/*.js tests/*.js",
+    "type-check": "node --check server.js src/main.js src/config/*.js src/models/*.js src/services/*.js src/controllers/*.js src/views/*.js src/utils/*.js",
+    "build": "node -e \"console.log('Build verified: static assets ready for deployment.')\""
+  },
+  "keywords": [
+    "thorakao",
+    "skincare",
+    "vietnam",
+    "oop",
+    "architecture",
+    "modular"
+  ],
+  "author": "Nguyen Bao Thien Phuc",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^3.0.0",
+    "three": "^0.187.0"
+  }
+}

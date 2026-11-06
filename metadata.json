@@ -1,0 +1,6 @@
+{
+  "name": "Thorakao Botanical AI Skin Lab",
+  "description": "AI-powered Vietnamese botanical skincare ecosystem since 1961 featuring YOLOv8n skin feature analysis, 3D Herbal Garden, personalized routines, e-commerce, and RAG customer assistant.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
